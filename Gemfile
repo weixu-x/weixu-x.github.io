@@ -1,5 +1,11 @@
 source "https://rubygems.org"
 
+# Pin pathutil to a version compatible with Jekyll 3.9
+gem "pathutil", "~> 0.9"
+
+# Required for Ruby 3.x to provide the builtin HTTP server used by Jekyll
+gem 'webrick'
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

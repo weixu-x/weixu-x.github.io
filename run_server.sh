@@ -1,1 +1,1 @@
-bundle exec jekyll liveserve
+RUBYOPT="-r$(pwd)/_plugins/patch_pathutil.rb" bundle exec jekyll serve --livereload
