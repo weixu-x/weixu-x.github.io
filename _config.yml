@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wei Xu"
-description              : "PhD researcher in embodied cognitive robotics & spatial cognition."
+description              : "University of Manchester"
 repository               : "weixu-x/weixu-x.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -114,7 +114,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
